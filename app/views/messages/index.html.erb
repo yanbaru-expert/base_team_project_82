@@ -3,5 +3,6 @@
   <p>
     <%= message.title %>
     <%= link_to "詳細", "messages/#{message.id}" %>
+    <%= link_to "編集", "messages/#{message.id}/edit", method: :get %>
   </p>
 <% end %>
